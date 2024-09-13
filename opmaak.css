@@ -60,4 +60,33 @@ h1 {
       font-size: 20px; /* Verhoog de tekstgrootte bij hover */
       color: white; /* Optioneel: verander de kleur tijdens hover */
     }
-        
+    .fade-in-title {
+      opacity: 0;
+      animation: fadeIn 2s ease forwards; /* Fade-in animatie voor de titel */
+    }
+    
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    .slide-up-text {
+      opacity: 0;
+      transform: translateY(20px); /* Begin iets onder zijn uiteindelijke positie */
+      animation: slideUp 2.5s ease forwards; /* Beweeg omhoog met een fade-in */
+      animation-delay: 0.5s; /* Vertraging zodat de titel eerst verschijnt */
+    }
+    
+    @keyframes slideUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px); /* Begint lager */
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0); /* Eindigt op de oorspronkelijke positie */
+    }
