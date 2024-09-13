@@ -58,6 +58,6 @@ h1 {
     
     .hover-effect:hover {
       font-size: 20px; /* Verhoog de tekstgrootte bij hover */
-      color: blue; /* Optioneel: verander de kleur tijdens hover */
+      color: white; /* Optioneel: verander de kleur tijdens hover */
     }
         
