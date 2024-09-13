@@ -50,4 +50,14 @@ h1 {
         transform: scale(1);
       }
     }
+    .hover-effect {
+      font-size: 16px;
+      text-decoration: none;
+      transition: font-size 0.3s ease; /* Voor een vloeiende overgang */
+    }
     
+    .hover-effect:hover {
+      font-size: 20px; /* Verhoog de tekstgrootte bij hover */
+      color: blue; /* Optioneel: verander de kleur tijdens hover */
+    }
+        
