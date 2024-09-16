@@ -62,7 +62,7 @@ h1 {
     }
     .fade-in-title {
       opacity: 0;
-      animation: fadeIn 2s ease forwards; /* Fade-in animation for the title */
+      animation: fadeIn 2s ease forwards; /* Fade in animatie voor de titel, dus h1. */
     }
     
     @keyframes fadeIn {
@@ -76,18 +76,18 @@ h1 {
     
     .slide-up-text {
       opacity: 0;
-      transform: translateY(20px); /* Start slightly below its final position */
-      animation: slideUp 2.5s ease forwards; /* Move up with a fade-in */
-      animation-delay: 0.5s; /* Delay so the title appears first */
+      transform: translateY(20px); /* Begin lager dan eind positie. */
+      animation: slideUp 2.5s ease forwards; /* Beweeg naar boven met een fade in. */
+      animation-delay: 0.5s; /* Wacht zodat de titel als eerst verschijnt. */
     }
     
     @keyframes slideUp {
       0% {
         opacity: 0;
-        transform: translateY(20px); /* Start lower */
+        transform: translateY(20px); /* Begin lager. */
       }
       100% {
         opacity: 1;
-        transform: translateY(0); /* End at the original position */
+        transform: translateY(0); /* Eindig bij originele positie. */
       }
     }
