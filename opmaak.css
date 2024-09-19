@@ -53,16 +53,16 @@ h1 {
     .hover-effect {
       font-size: 16px;
       text-decoration: none;
-      transition: font-size 0.3s ease; /* Voor een vloeiende overgang */
+      transition: font-size 0.3s ease; /* voor een mooie overgang */
     }
     
     .hover-effect:hover {
       font-size: 20px; /* Verhoog de tekstgrootte bij hover */
-      color: white; /* Optioneel: verander de kleur tijdens hover */
+      color: white; /* Verander de kleur tijdens hover */
     }
     .fade-in-title {
       opacity: 0;
-      animation: fadeIn 2s ease forwards; /* Fade in animatie voor de titel, dus h1. */
+      animation: fadeIn 2s ease forwards; /* Fade in animatie voor de titel dus h1 */
     }
     
     @keyframes fadeIn {
@@ -76,18 +76,18 @@ h1 {
     
     .slide-up-text {
       opacity: 0;
-      transform: translateY(20px); /* Begin lager dan eind positie. */
-      animation: slideUp 2.5s ease forwards; /* Beweeg naar boven met een fade in. */
-      animation-delay: 0.5s; /* Wacht zodat de titel als eerst verschijnt. */
+      transform: translateY(20px); /* Begin lager dan eind positie */
+      animation: slideUp 2.5s ease forwards; /* Beweeg naar boven met een fade in */
+      animation-delay: 0.5s; /* Wacht zodat de titel als eerst verschijnt */
     }
     
     @keyframes slideUp {
       0% {
         opacity: 0;
-        transform: translateY(20px); /* Begin lager. */
+        transform: translateY(20px); /* Begin lager */
       }
       100% {
         opacity: 1;
-        transform: translateY(0); /* Eindig bij originele positie. */
+        transform: translateY(0); /* Eindig bij originele positie */
       }
     }
