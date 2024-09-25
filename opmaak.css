@@ -60,21 +60,3 @@ h1 {
       font-size: 20px; /* Verhoog de tekstgrootte bij hover */
       color: white; /* Verander de kleur tijdens hover */
     }
-    @keyframes fadeIn {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }    
-    @keyframes slideUp {
-      0% {
-        opacity: 0;
-        transform: translateY(20px); /* Begin lager */
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0); /* Eindig bij originele positie */
-      }
-    }
