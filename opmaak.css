@@ -32,31 +32,3 @@ h1 {
     li a:hover {
       background-color: black;
     }
-    .animated-text {
-      font-size: 2em;
-      text-align: center;
-      opacity: 0; /* Begin met onzichtbare tekst */
-      transform: scale(0.5); /* Begin met ingezoomde tekst */
-      animation: fadeInZoom 2s ease forwards; /* Pas de animatie toe */
-    }
-    
-    @keyframes fadeInZoom {
-      0% {
-        opacity: 0;
-        transform: scale(0.5);
-      }
-      100% {
-        opacity: 1;
-        transform: scale(1);
-      }
-    }
-    .hover-effect {
-      font-size: 16px;
-      text-decoration: none;
-      transition: font-size 0.3s ease; /* voor een mooie overgang */
-    }
-    
-    .hover-effect:hover {
-      font-size: 20px; /* Verhoog de tekstgrootte bij hover */
-      color: white; /* Verander de kleur tijdens hover */
-    }
