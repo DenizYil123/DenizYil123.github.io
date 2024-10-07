@@ -1,34 +1,48 @@
-body {background-color: navy;}
+/* Achtergrond kleur van de pagina wordt donker blauw */
+body {
+  background-color: navy;
+}
+
+/* Alle tekst met h1 wordt goud gekleurd */
 h1 {
-    color: gold;
-  }
-  p {
-    color: gold; 
-  }
-  a {
-    color: gold; 
-    text-decoration: none;} 
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: darkgreen;
-    }
-    
-    li {
-      float: left;
-    }
-    
-    li a {
-      display: block;
-      color: gold;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    
-   
-    li a:hover {
-      background-color: black;
-    }
+  color: gold;
+}
+
+/* Alle tekst met p wordt goud gekleurd */
+p {
+  color: gold; 
+}
+
+/* De links van de menu worden ook goud en er is geen onderstreping */
+a {
+  color: gold; 
+  text-decoration: none;
+}
+
+/* De stijl voor de menu */
+ul {
+  list-style-type: none; 
+  margin: 0; /* Geen margin */
+  padding: 0; /* Geen padding */
+  overflow: hidden;
+  background-color: darkgreen; /* De achtergrondkleur van de menu wordt donker groen */
+}
+
+/* De stijl van de kopjes van de menu */
+li {
+  float: left; /* Kopjes gaan van links naar rechts en blijven naast elkaar */
+}
+
+/* Stijl voor de links van de kopjes */
+li a {
+  display: block; /* De links worden als blokken weergeven */
+  color: gold; /* Tekst kleur goud */
+  text-align: center; /* Tekst komt in het midden */
+  padding: 14px 16px; /* Wat ruimte rondom de tekst */
+  text-decoration: none; /* Geen onderstreping van de links */
+}
+
+/* De hover effect wanneer je er met je muis overheen gaat */
+li a:hover {
+  background-color: black; /* De achtergrond kleur van de blok wordt zwart wanneer je er overheen gaat. */
+}
