@@ -32,12 +32,3 @@ h1 {
     li a:hover {
       background-color: black;
     }
-
-  footer {
-  background-color: darkgreen;
-  height: 12vh;
-  }
-
-  .center-text{
-    text-align: center;
-  }
