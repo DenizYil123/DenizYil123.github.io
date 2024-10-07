@@ -37,3 +37,7 @@ h1 {
   background-color: darkgreen;
   height: 12vh;
   }
+
+  .center-text{
+    text-align: center;
+  }
